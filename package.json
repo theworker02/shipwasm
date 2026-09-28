@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/shipwasm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ship and reshape wasm text streams with deterministic transforms.",
+  "bin": {
+    "shipwasm": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/shipwasm.git"
+  },
+  "homepage": "https://theworker02.github.io/shipwasm/",
+  "keywords": [
+    "ship",
+    "wasm",
+    "text",
+    "cli",
+    "toolkit"
+  ]
+}
